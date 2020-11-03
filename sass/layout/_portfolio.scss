@@ -113,8 +113,8 @@
     transform: translateY(100%);
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-    .gallery-portfolio-item:hover &, 
-    .gallery-portfolio-item:focus & {
+    .gallery-portfolio-link:hover &, 
+    .gallery-portfolio-link:focus & {
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
